@@ -1,0 +1,10 @@
+# Basic Query 
+SELECT *
+FROM Customers
+WHERE City = 'São Paulo';
+
+# Sort query 
+SELECT *
+FROM Customers
+WHERE City = 'São Paulo';
+ORDER BY City, CustomerName # First by city then by customer name; 
