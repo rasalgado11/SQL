@@ -1,0 +1,9 @@
+#MultiFilters: by CPF, name, female, older than 20 years. 
+SELECT cpf, nome 
+FROM clientes 
+WHERE sexo = "F" AND idade > 20 
+
+SELECT cpf, nome 
+FROM clientes 
+WHERE (uf="SP" OR uf="GO") AND idade <= 22
+
