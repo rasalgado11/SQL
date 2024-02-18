@@ -10,7 +10,7 @@ SELECT*
 FROM clients
 WHERE uf IN ('GO', 'SP', 'AP')/ WHERE uf NOT IN ('GO', 'SP', 'AP') 
 
-#JOIN
+#JOIN 2 tables
 SELECT * 
 FROM table 1 JOIN table 2 ON table1.id_x=table2.id_y
 
