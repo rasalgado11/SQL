@@ -1,4 +1,4 @@
-#MultiFilters: by CPF, name, female, older than 20 years. 
+-- MultiFilters: by CPF, name, female, older than 20 years. 
 SELECT cpf, nome 
 FROM clientes 
 WHERE sexo = "F" AND age> 20 
@@ -7,17 +7,17 @@ SELECT cpf, nome
 FROM clientes 
 WHERE (uf="SP" OR uf="GO") AND age <= 22
 
-#Filter by unspecific quantitiy of characteres on the right and on the left
+-- Filter by unspecific quantitiy of characteres on the right and on the left
 SLECT name
 FROM clients
 WHERE address LIKE'%Madalena%'
 
-#Filter by unspecific quantitiy of characteres on the right
+-- Filter by unspecific quantitiy of characteres on the right
 SLECT *
 FROM clients
 WHERE name LIKE'_o%'
 
-#Filter by unspecific quantitiy of characteres on the right
+-- Filter by unspecific quantitiy of characteres on the right
 SLECT *
 FROM clients
 WHERE name LIKE'[ML]%'
