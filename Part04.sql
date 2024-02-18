@@ -1,4 +1,4 @@
-#LEFT JOIN, subqueries and UNION
+--LEFT JOIN, subqueries and UNION
 
 SELECT produtos.nome, SUM(compras.quantidade)
 FROM compras
